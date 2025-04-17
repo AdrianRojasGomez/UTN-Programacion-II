@@ -6,22 +6,12 @@ Clases en Video, .PDFs y ejercicios resueltos!
 Indice
 ---
 
-#### Vectores y Matrices #
-
-
----
-#### Memoria Dinamica #
-
-
+#### [Vectores y Matrices](./1.%20Funciones%20y%20Arrays/)
 
 ---
-#### Programacion Orientada a Objetos #
-
-
-
+#### [Memoria Dinamica](2.%20Memoria%20Dinamica/)
 ---
-#### Archivos # 
-
-
-
+#### [Programación Orientada a Objetos](3.%20Programacion%20Orientada%20a%20Objetos/)
+---
+#### [Archivos](4.%20Archivos/)
 ---
