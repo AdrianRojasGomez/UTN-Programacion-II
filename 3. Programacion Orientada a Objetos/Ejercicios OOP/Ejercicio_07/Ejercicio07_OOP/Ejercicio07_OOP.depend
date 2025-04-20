@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1745098657 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_07\ejercicio07_oop\usuario.cpp
+	<iostream>
+	"Usuario.h"
+	<string>
+
+1745098644 c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_07\ejercicio07_oop\usuario.h
+	<string>
+
