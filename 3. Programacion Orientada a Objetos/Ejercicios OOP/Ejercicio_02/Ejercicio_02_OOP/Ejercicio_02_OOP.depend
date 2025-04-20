@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1745076037 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_02\ejercicio_02_oop\main.cpp
+	<iostream>
+	"Dado.h"
+
+1745075645 c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_02\ejercicio_02_oop\dado.h
+
+1745076007 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_02\ejercicio_02_oop\dado.cpp
+	<iostream>
+	<ctime>
+	"Dado.h"
+

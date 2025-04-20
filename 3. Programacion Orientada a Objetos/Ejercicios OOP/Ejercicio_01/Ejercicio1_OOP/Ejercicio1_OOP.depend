@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1745009876 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_01\ejercicio1_oop\main.cpp
+	<iostream>
+	"Rectangulo.h"
+
+1745009451 c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_01\ejercicio1_oop\rectangulo.h
+
+1745009712 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_01\ejercicio1_oop\rectangulo.cpp
+	<iostream>
+	"Rectangulo.h"
+

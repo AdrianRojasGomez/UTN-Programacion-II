@@ -1,7 +1,7 @@
 ![🖥  Programacion_I](Images/Programacion-II-label.png)
 ---
 Repositorio de Ejercicios resueltos de las Guias de Programacion II.
-Clases en Video, .PDFs y ejercicios resueltos!
+Clases en Video, .PDFs y mas!
 
 Indice
 ---

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1745094161 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_05\ejercicio05_oop\main.cpp
+	<iostream>
+	"Termometro.h"
+
+1745093857 c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_05\ejercicio05_oop\termometro.h
+
+1745094142 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_05\ejercicio05_oop\termometro.cpp
+	<iostream>
+	"Termometro.h"
+

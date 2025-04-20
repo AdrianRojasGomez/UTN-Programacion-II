@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1745092227 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_04\ejercicio04_oop\main.cpp
+	<iostream>
+	"Triangulo.h"
+
+1745092215 source:c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_04\ejercicio04_oop\triangulo.cpp
+	<iostream>
+	"Triangulo.h"
+
+1745092106 c:\repos\utn-programacion-ii\3. programacion orientada a objetos\ejercicios oop\ejercicio_04\ejercicio04_oop\triangulo.h
+
