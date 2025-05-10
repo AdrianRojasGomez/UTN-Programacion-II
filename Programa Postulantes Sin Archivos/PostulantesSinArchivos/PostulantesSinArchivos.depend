@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1746900638 source:c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\main.cpp
+	<iostream>
+	"Postulante.h"
+	"Empresa.h"
+
+1746900192 source:c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\empresa.cpp
+	<iostream>
+	<string>
+	"Empresa.h"
+	"Postulante.h"
+
+1746900804 c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\empresa.h
+	<string>
+	"Postulante.h"
+
+1746899059 source:c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\postulante.cpp
+	<iostream>
+	<string>
+	"Postulante.h"
+
+1746898530 c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\postulante.h
+	<string>
+
+1746897084 c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\menu.h
+
+1746897084 source:c:\users\admin\documents\utn-programacion-ii\programa postulantes sin archivos\postulantessinarchivos\menu.cpp
+	"Menu.h"
+	<iostream>
+
