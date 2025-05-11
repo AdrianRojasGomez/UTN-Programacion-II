@@ -17,7 +17,10 @@ public:
     Postulante();
     Postulante(int id, std::string apellidos, std::string nombres, int edad, std::string puesto, int aniosExperiencia, bool isContratado);
 
+    void toCSV();
+
     int getID();
+    void setID(int id);
 
     std::string getApellidos();
     void setApellidos(std::string apellidos);

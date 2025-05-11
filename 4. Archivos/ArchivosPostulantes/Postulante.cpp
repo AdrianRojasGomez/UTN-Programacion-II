@@ -1,7 +1,8 @@
-#include "Postulante.h"
 #include <string>
 ///Para copiar vectores de char se usa strcpy con esta libreria de C para los strings
 #include <cstring>
+#include <iostream>
+#include "Postulante.h"
 using namespace std;
 
 Postulante::Postulante()
@@ -27,6 +28,26 @@ Postulante::Postulante(int id, string apellidos, string nombres, int edad, strin
     setIsContratado(isContratado);
 
 }
+
+void Postulante::toCSV()
+{
+    string csv;
+    csv = to_string(_id);
+    csv += ",";
+    csv += string(_apellidos);
+    csv += ",";
+    csv += string(_nombres);
+    csv += ",";    csv += to_string(_edad);
+    csv += ",";
+    csv += string(_puesto);
+    csv += ",";
+    csv += to_string(_aniosExperiencia);
+    csv += ",";
+    csv += to_string(_isContratado);
+
+    cout << csv << endl;
+}
+
 
 int Postulante::getID()
 {
