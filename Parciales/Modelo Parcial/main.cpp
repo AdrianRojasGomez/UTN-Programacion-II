@@ -12,7 +12,7 @@ int main()
     Todo código que quieran agregar para la resolución debe estar dentro de esos archivos.
     No modifiquen ninguno de los otros archivos ya que no tendrán permitido subir esos cambios en la entrega.
     */
-    resolucion.EjemploDeListado();
+    //resolucion.EjemploDeListado();
     resolucion.Punto1();
     resolucion.Punto2();
     resolucion.Punto3();
