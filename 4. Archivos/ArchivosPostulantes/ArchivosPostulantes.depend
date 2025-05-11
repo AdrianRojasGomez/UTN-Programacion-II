@@ -5,26 +5,38 @@
 
 1746921787 c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\menu.h
 
-1746923448 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\menu.cpp
+1746971841 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\menu.cpp
 	"Menu.h"
 	"Manager.h"
 	<iostream>
 	<string>
 
-1746923338 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\postulante.cpp
-	"Postulante.h"
+1746923523 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\postulante.cpp
 	<string>
 	<cstring>
+	<iostream>
+	"Postulante.h"
 
 1746923311 c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\postulante.h
 	<string>
 
-1746923380 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\manager.cpp
+1746972422 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\manager.cpp
 	<iostream>
 	<string>
+	"Postulante.h"
 	"Manager.h"
+	"GestorArchivos.h"
+
+1746927176 c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\manager.h
 	"Postulante.h"
 
-1746923311 c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\manager.h
+1746929046 source:c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\gestorarchivos.cpp
+	<iostream>
+	<string>
+	"GestorArchivos.h"
+	"Postulante.h"
+
+1746972096 c:\users\admin\documents\utn-programacion-ii\4. archivos\archivospostulantes\gestorarchivos.h
+	<string>
 	"Postulante.h"
 

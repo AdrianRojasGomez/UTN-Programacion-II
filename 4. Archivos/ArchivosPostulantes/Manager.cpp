@@ -1,13 +1,15 @@
 #include <iostream>
 #include <string>
-#include "Manager.h"
 #include "Postulante.h"
-
+#include "Manager.h"
+#include "GestorArchivos.h"
 using namespace std;
 
 void Manager::RegistrarPostulante()
 {
     Postulante postulante;
+    GestorArchivos gArchivos;
+
     int id;
     string apellidos;
     string nombres;
@@ -34,9 +36,36 @@ void Manager::RegistrarPostulante()
 
 
     postulante = Postulante(id,apellidos,nombres,edad,puesto,aniosExperiencia,isContratado);
+    if(gArchivos.GuardarPostulante(postulante))
+    {
+        cout << "Se guardo el postulante correctamente" << endl;
+    }
+    else
+    {
+        cout << "Error inesperado al guardar" << endl;
+    }
 
-    postulante.toCSV();
-
+}
+
+void Manager::VerCantidadRegistros()
+{
+    GestorArchivos gArchivos;
+    cout << "La cantidad de registros es de " << gArchivos.getCantidadRegistros();
+
+}
+
+void Manager::VerListaPostulantes()
+{
+    Postulante registro;
+    GestorArchivos gArchivos;
+    int cantReg = gArchivos.getCantidadRegistros();
+
+    for(int i = 0; i < cantReg; i++)
+    {
+        registro = gArchivos.LeerUnRegistro(i);
+        registro.toCSV();
+    }
 
 
 }
+

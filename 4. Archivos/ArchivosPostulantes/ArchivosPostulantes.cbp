@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="GestorArchivos.cpp" />
+		<Unit filename="GestorArchivos.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="Manager.cpp" />
 		<Unit filename="Manager.h">
 			<Option target="&lt;{~None~}&gt;" />

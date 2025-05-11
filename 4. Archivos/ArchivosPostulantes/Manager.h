@@ -9,8 +9,9 @@ private:
 
 public:
     void RegistrarPostulante();
-    void LeerListaPostulantes();
+    void VerListaPostulantes();
     void FiltrarPostulantes();
     void BuscarContratados();
+    void VerCantidadRegistros();
 
 };

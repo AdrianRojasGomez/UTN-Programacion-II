@@ -17,6 +17,7 @@ void Menu::Mostrar()
         cout << "2. Ver lista completa de postulantes\n";
         cout << "3. Filtrar postulantes por puesto y por experiencia\n";
         cout << "4. Ver lista de las personas contratadas\n";
+        cout << "5. Ver Cantidad de Registros\n";
         cout << "0. Salir\n";
         cout << "Seleccione una opcion: ";
 
@@ -25,17 +26,19 @@ void Menu::Mostrar()
         switch(opcion)
         {
         case 1:
-            ///Registrar Postulante
             manager.RegistrarPostulante();
             break;
         case 2:
-            ///Ver lista completa de postulantes
+            manager.VerListaPostulantes();
             break;
         case 3:
-            ///Filtrar postulantes por puesto y XP
+            ///TODO: Filtrar postulantes por puesto y XP
             break;
         case 4:
-            ///Ver lista de contratados
+            ///TODO: Ver lista de contratados
+            break;
+        case 5:
+            manager.VerCantidadRegistros();
             break;
         case 0:
             return;
