@@ -69,3 +69,54 @@ void Manager::VerListaPostulantes()
 
 }
 
+void Manager::VerContratados()
+{
+    Postulante registro;
+    GestorArchivos gArchivos;
+    int cantReg = gArchivos.getCantidadRegistros();
+
+    for(int i = 0; i < cantReg; i++)
+    {
+        registro = gArchivos.LeerUnRegistro(i);
+        if(registro.getIsContratado())
+        {
+            cout << "--------------------------------" << endl;
+            cout << "ID: " << registro.getID() << endl;
+            cout << "Apellidos: " << registro.getApellidos() << endl;
+            cout << "Nombres : " << registro.getNombres() << endl;
+            cout << "--------------------------------" << endl;
+        }
+    }
+}
+
+void Manager::FiltrarPostulantesPuestoExperiencia()
+{
+    Postulante registro;
+    GestorArchivos gArchivos;
+    int cantReg = gArchivos.getCantidadRegistros();
+    string puesto;
+    int aniosXP;
+
+
+    cout << "Ingrese el puesto que desea Filtrar:  ";
+    cin >> puesto;
+    cout << "Ingrese la cantidad de anios de Experiencia que desea Filtrar:  ";
+    cin >> aniosXP;
+
+
+    for(int i = 0; i < cantReg; i++)
+    {
+        registro = gArchivos.LeerUnRegistro(i);
+
+        if(registro.getAniosExperiencia() >= aniosXP && registro.getPuesto() == puesto)
+        {
+            cout << "--------------------------------" << endl;
+            cout << "ID: " << registro.getID() << endl;
+            cout << "Apellidos: " << registro.getApellidos() << endl;
+            cout << "Nombres : " << registro.getNombres() << endl;
+            cout << "--------------------------------" << endl;
+        }
+    }
+
+}
+

@@ -32,10 +32,10 @@ void Menu::Mostrar()
             manager.VerListaPostulantes();
             break;
         case 3:
-            ///TODO: Filtrar postulantes por puesto y XP
+            manager.FiltrarPostulantesPuestoExperiencia();
             break;
         case 4:
-            ///TODO: Ver lista de contratados
+            manager.VerContratados();
             break;
         case 5:
             manager.VerCantidadRegistros();

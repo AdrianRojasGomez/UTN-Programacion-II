@@ -5,13 +5,11 @@ class Manager
 {
 private:
 
-
-
 public:
     void RegistrarPostulante();
     void VerListaPostulantes();
-    void FiltrarPostulantes();
-    void BuscarContratados();
+    void FiltrarPostulantesPuestoExperiencia();
+    void VerContratados();
     void VerCantidadRegistros();
 
 };
